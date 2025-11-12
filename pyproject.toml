@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "music-editor-ai"
+version = "0.1.0"
+description = "Lightweight utilities for generating musical ideas"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Music Editor AI"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
